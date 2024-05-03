@@ -152,8 +152,6 @@ const canvas = document.getElementById("game");
      }  
   }
   document.addEventListener("DOMContentLoaded", function() {
-
     resetGame();
-    drawGame();
   });
     
