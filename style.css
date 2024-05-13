@@ -1,14 +1,24 @@
 body {
   background-color: rgb(153, 193, 228);
 }
-h1,
-h3 {
+h1 {
   text-align: center;
-  color: black;
-  margin: auto;
   padding: 10px;
-  align-items: center;
-  background-color: #eb1b2d;
+}
+a {
+  text-align: center;
+  padding: 10px;
+}
+.scr {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  background-color: yellowgreen;
+}
+.links {
+  display: flex;
+  padding: 10px;
+  align-items: end;
 }
 .hover-button {
   position: relative;
